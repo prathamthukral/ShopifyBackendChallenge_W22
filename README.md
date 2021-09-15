@@ -9,7 +9,7 @@ Pratham Thukral
 
 # Installation Guide
 1. Clone repository
-2. Navigate in console to `photorepo_w22/ShopifyProject/`
+2. Navigate in console to `ShopifyBackendChallenge_W22/ShopifyProject/`
 3. Add in S3 and RDS Keys from AWS account into `ShopifyProject\ShopifyProject\settings.py`. 
     - These have been blocked out from this repository submission for security reasons
 5. Run `python.exe .\manage.py runserver`
