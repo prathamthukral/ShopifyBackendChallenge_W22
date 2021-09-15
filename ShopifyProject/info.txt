@@ -1,0 +1,21 @@
+Search:
+    meta data stored with the image (json format)
+    size
+    array of tags
+
+Add:
+    insert to db folder (look into photorepo_w22) - UUID is image name
+    insert image with tags
+    size is extracted automatically and added to meta data json field
+
+Delete:
+    remove from db based off image name
+    Delete bulk with array of image names
+
+
+lookup DB: amazon RDS - store the image name, meta data, file size, dimensions, etc.
+image DB: S3 buckets
+
+db instance: shopify-image-db
+user: admin
+pw: password
